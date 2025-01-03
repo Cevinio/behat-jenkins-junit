@@ -1,0 +1,17 @@
+{
+    "name": "cevinio/behat-jenkins-junit",
+    "type": "behat-extension",
+    "description": "Jenkins JUnit formatter extension for Behat",
+    "keywords": ["behat", "extension", "junit", "xunit", "jenkins", "jjunit"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cevinio\\BehatJenkinsJUnit\\": "src"
+        }
+    },
+    "require": {
+        "ext-dom": "*",
+        "php": ">=8.1",
+        "behat/behat": "^3.17"
+    }
+}
